@@ -24,8 +24,8 @@ The package contains the following files:
 
 1. DSL-TRAIN.txt - Training set for the DSL task
 2. DSL-DEV.txt - Development set for the DSL task
-3. DSL-DEV.txt - Unlabelled test set
-4. DSL-TEST-UNLABELLED.txt - Test set with gold labels
+3. DSL-TEST-UNLABELLED.txt - Unlabelled test set
+4. DSL-TEST-GOLD.txt - Test set with gold labels
 
 Each line in the .txt files are tab-delimited in the format:
 sentence<tab>language-label
