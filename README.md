@@ -22,11 +22,10 @@ This is the training and test data for the Distinguishing between Similar Langua
 
 The package contains the following files:
 
-DSL-TRAIN.txt 						- Training set for the DSL task
-DSL-DEV.txt 							- Development set for the DSL task
-DSL-DEV.txt 							- Unlabelled test set
-DSL-TEST-UNLABELLED.txt 	- Test set with gold labels
-README.txt 								- Brief description of the DSL data
+1. DSL-TRAIN.txt - Training set for the DSL task
+2. DSL-DEV.txt - Development set for the DSL task
+3. DSL-DEV.txt - Unlabelled test set
+4. DSL-TEST-UNLABELLED.txt - Test set with gold labels
 
 Each line in the .txt files are tab-delimited in the format:
 sentence<tab>language-label
