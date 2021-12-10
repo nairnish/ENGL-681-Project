@@ -7,7 +7,7 @@ This repository consists of several experimentation carried out on the DSLCC dat
 Below are the list of items present in each folder:
 
 ### Project Experiments ###
-###### 1. Codes - Contains the model classification source codes and associated testing codes ######
+#### 1. Codes - Contains the model classification source codes and associated testing codes ####
 1. SVC - The file test_SVC.py executes the linearSVC model in project_SVC.py
 2. SGDC - The file test_SGDC.py executes the Stochastic Gradient Descent model in project_SGDC.py
 3. MultinomialNB - The file test_NB.py executes the Multinomial Naive Bayes model in project_NB.py
@@ -16,8 +16,7 @@ Below are the list of items present in each folder:
 6. LogisticRegression - The file test_LR.py executes the Logistic Regression model in project_LR.py
 7. Shallow NeuralNetwork - The file shallow_NN.py is an implementation of shallow neural network
 
-###### 2. DSLCC4 datastes ######
-================
+#### 2. DSLCC4 datastes ####
 
 This is the training and test data for the Distinguishing between Similar Languages (DSL) task at VarDial 2017.
 
@@ -44,7 +43,7 @@ Varieties and Dialects (VarDial), Valencia, Spain.
 
 10/Feb/2017
 
-###### 3. Evaluation  ######
+#### 3. Evaluation  ####
 Contains the code my_evaluation.py for evaluating the resuls from model predictions using the confusion matrix - F1, accuracy, precision and recall
 
 
