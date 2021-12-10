@@ -14,10 +14,36 @@ Below are the list of items present in each folder:
 4. XGBoost - The file test_XGBoost.py executes the Xtreme Gradient Boosting model in project_XGBoost.py
 5. KNN - The file test_KNN.py executes the K-nearest neighbours model in project_KNN.py
 6. LogisticRegression - The file test_LR.py executes the Logistic Regression model in project_LR.py
-7. Shallow NeuralNetwork - The file sample_shallow_NN.py is WIP and is an implementation of shallow neural network
+7. Shallow NeuralNetwork - The file shallow_NN.py is an implementation of shallow neural network
 
 ###### 2. DSLCC4 datastes ######
-Contains the required datasets for the model to train, validate and test
+DSLCC 4.0 Corpus
+================
+
+This is the training and test data for the Distinguishing between Similar Languages (DSL) task at VarDial 2017.
+
+The package contains the following files:
+
+DSL-TRAIN.txt 						- Training set for the DSL task
+DSL-DEV.txt 							- Development set for the DSL task
+DSL-DEV.txt 							- Unlabelled test set
+DSL-TEST-UNLABELLED.txt 	- Test set with gold labels
+README.txt 								- Brief description of the DSL data
+
+Each line in the .txt files are tab-delimited in the format:
+sentence<tab>language-label
+
+For more details (like data stats) you can refer to the VarDial 2017 task paper:
+
+Marcos Zampieri, Shervin Malmasi, Nikola Ljubesic,
+Preslav Nakov, Ahmed Ali, Jorg Tiedemann, Yves
+Scherrer, and Noemi Aepli. 2017. "Findings of the
+VarDial Evaluation Campaign 2017." In Proceedings
+of the Fourth Workshop on NLP for Similar Languages,
+Varieties and Dialects (VarDial), Valencia, Spain.
+
+
+10/Feb/2017
 
 ###### 3. Evaluation  ######
 Contains the code my_evaluation.py for evaluating the resuls from model predictions using the confusion matrix - F1, accuracy, precision and recall
