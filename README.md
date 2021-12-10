@@ -30,18 +30,6 @@ The package contains the following files:
 Each line in the .txt files are tab-delimited in the format:
 sentence<tab>language-label
 
-For more details (like data stats) you can refer to the VarDial 2017 task paper:
-
-Marcos Zampieri, Shervin Malmasi, Nikola Ljubesic,
-Preslav Nakov, Ahmed Ali, Jorg Tiedemann, Yves
-Scherrer, and Noemi Aepli. 2017. "Findings of the
-VarDial Evaluation Campaign 2017." In Proceedings
-of the Fourth Workshop on NLP for Similar Languages,
-Varieties and Dialects (VarDial), Valencia, Spain.
-
-
-10/Feb/2017
-
 #### 3. Evaluation  ####
 Contains the code my_evaluation.py for evaluating the resuls from model predictions using the confusion matrix - F1, accuracy, precision and recall
 
