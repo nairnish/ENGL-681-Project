@@ -17,7 +17,6 @@ Below are the list of items present in each folder:
 7. Shallow NeuralNetwork - The file shallow_NN.py is an implementation of shallow neural network
 
 ###### 2. DSLCC4 datastes ######
-DSLCC 4.0 Corpus
 ================
 
 This is the training and test data for the Distinguishing between Similar Languages (DSL) task at VarDial 2017.
